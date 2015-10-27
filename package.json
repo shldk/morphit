@@ -1,0 +1,31 @@
+{
+  "name": "gulp-morphit",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "repository": "stashladki/gulp-morphit",
+  "author": {
+    "name": "hladkis",
+    "email": "stas.hladki@gmail.com",
+    "url": "https://github.com/stashladki"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.1",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
